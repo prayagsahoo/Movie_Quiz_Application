@@ -1,0 +1,65 @@
+<!--It should take the user or player name as input; followed by the quiz in which each question must be displayed as a Multiple Choice Question appearing with a timer of a 30seconds. If any option is chosen in the given interval then show the correctness and show the next question with a time interval of 3seconds. Else if no option is chosen in the given interval after completion of 30seconds move to the next question. The minimum number of questions must not go under 5 and at the end of all questions show the summary and total score of the user.-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="Quiz.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+<center>
+<div class="start_btn">
+
+<label for="player_name"><b><h3>Enter Your Name: </h3></b></label>
+<input type="text" id="player_name"><br><br>
+<button>Start Quiz</button></div></center>
+
+<div class="quiz_box">
+	<header>
+		<div class="title">Movie Quiz Application</div>
+		<div class="timer">
+			<div class="time_text">Time Left:</div>
+			<div class="timer_sec">30</div>
+		</div>
+	</header>
+<section>
+<div class="que_text">
+	<!--<span>What is the highest grossing movie of all time?</span> -->
+</div>
+<div class="option_list">
+	<!--<div class="option">
+		<span>Avengers:Endgame</span>
+		<div class="icon_cross">&#10005;
+		</div></div>
+	<div class="option">
+		<span>Titanic</span>
+		<div class="icon_cross">&#10005;
+		</div>	</div>
+	<div class="option">
+		<span>Avatar</span>
+		<div class="icon_tick">&#10003;
+		</div></div>
+	<div class="option">
+		<span>Gone With The Wind</span>
+		<div class="icon_cross">&#10005;
+		</div>	</div> -->	
+</div>
+</section>
+</div>
+<!-- Quiz Box footer-->
+<div class="result_box">
+	<div class="complete_text"><span></span></div><br>
+	<div class="icon"><span><i class="bi bi-trophy"></i></span></div>
+	<div class="score_text"><span></span></div><br>
+</div>
+
+<script src="Quiz.js"></script>
+	<script src="Questions.js"></script>
+</body>
+</html>
+
+
+
